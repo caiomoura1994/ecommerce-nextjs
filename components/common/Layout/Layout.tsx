@@ -72,15 +72,15 @@ const Layout: FC<Props> = ({ children, pageProps }) => {
           {modalView === 'FORGOT_VIEW' && <ForgotPassword />}
         </Modal>
 
-        <FeatureBar
-          title="This site uses cookies to improve your experience. By clicking, you agree to our Privacy Policy."
+        {/* <FeatureBar
+          title="Este site usa cookies para melhorar sua experiência. Ao clicar, você concorda com nossa Política de Privacidade."
           hide={acceptedCookies}
           action={
             <Button className="mx-5" onClick={onAcceptCookies}>
-              Accept cookies
+              Aceitar
             </Button>
           }
-        />
+        /> */}
       </div>
     </CommerceProvider>
   )
