@@ -22,6 +22,7 @@ const Input: React.FC<Props> = (props) => {
   return (
     <label>
       <input
+        id={rest.placeholder}
         className={rootClassName}
         onChange={handleOnChange}
         autoComplete="off"

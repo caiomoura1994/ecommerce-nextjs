@@ -99,6 +99,7 @@ const CartItem = ({
           </button>
           <label>
             <input
+              id={'rest.placeholder'}
               type="number"
               max={99}
               min={0}
